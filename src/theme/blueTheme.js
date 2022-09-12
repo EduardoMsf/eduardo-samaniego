@@ -6,8 +6,8 @@ export const blueTheme = createTheme({
     primary: {
       main: '#262254'
     },
-    seconday: {
-      main: '#D93691'
+    secondary: {
+      main: '#F09ECE'
     },
     success: {
       main: '#2E7D32'
@@ -18,8 +18,8 @@ export const blueTheme = createTheme({
     black: {
       main: '#1B1B1B'
     },
-    white: {
-      main: '#FFFFFF'
+    whiteSmoke: {
+      main: '#f5f5f5'
     }
   }
 })
