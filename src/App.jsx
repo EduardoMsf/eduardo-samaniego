@@ -2,6 +2,8 @@ import { AppTheme } from './theme'
 import { Grid, Typography } from '@mui/material'
 import { NavBar } from './components/NavBar'
 import { Box } from '@mui/system'
+import { About } from './components/About'
+import { Home } from './components/Home'
 
 export const App = () => {
 
@@ -9,9 +11,12 @@ export const App = () => {
     <AppTheme>
       <Box>
         <NavBar />
-        <Grid container sx={{margin:'80px 0'}} justifyContent='center'>
-          <Grid item >
-            <Typography variant='h1' align='center' color="primary">Hello, I'm <span style={{color:'rgb(240,158,206)'}}>Eduardo</span>!</Typography>
+        <Grid container display='grid' sx={{margin:'55px 0'}} justifyContent='center'>
+          <Grid item  sx={{border:'1px solid black', backgroundColor:'#1B1B1B', height:'400px'}}>
+            <Home/>
+          </Grid>
+          <Grid item sx={{border: '1px solid black'}}>
+            <About />
           </Grid>
         </Grid>
       </Box>
