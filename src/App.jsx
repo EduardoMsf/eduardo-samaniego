@@ -4,6 +4,8 @@ import { NavBar } from './components/NavBar'
 import { Box } from '@mui/system'
 import { About } from './components/About'
 import { Home } from './components/Home'
+import { Quotes } from './components/Quotes'
+import { Projects } from './components/Projects'
 
 export const App = () => {
 
@@ -17,6 +19,12 @@ export const App = () => {
           </Grid>
           <Grid item sx={{border: '1px solid black'}}>
             <About />
+          </Grid>
+          <Grid item sx={{border: '1px solid black'}}>
+            <Quotes />
+          </Grid>
+          <Grid item sx={{border: '1px solid black'}}>
+            <Projects />
           </Grid>
         </Grid>
       </Box>
