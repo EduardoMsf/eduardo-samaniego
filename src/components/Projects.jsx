@@ -3,7 +3,7 @@ import { Button, Card, CardActions, CardContent, CardMedia, Grid, Typography } f
 
 export const Projects = () => {
   return (
-    <Grid container justifyContent='space-evenly'>
+    <Grid container justifyContent='space-evenly' id='Projects'>
       <Grid item>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia

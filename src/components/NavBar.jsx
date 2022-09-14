@@ -14,6 +14,8 @@ export const NavBar = (props) => {
     setMobileOpen(!mobileOpen);
   };
 
+  console.log(window)
+
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
@@ -23,7 +25,7 @@ export const NavBar = (props) => {
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
+            <ListItemButton sx={{ textAlign: 'center' }} >
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -58,7 +60,7 @@ export const NavBar = (props) => {
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, width:'798px' }}>
             {navItems.map((item) => (
               <Button key={item} color="secondary" sx={{width:'100%'}}>
-                {item}
+                <a href={`#${item}`} style={{textDecoration:'none', color:'#F09ECE'}}>{item}</a>
               </Button>
             ))}
           </Box>

@@ -3,7 +3,7 @@ import { Grid, Typography } from "@mui/material"
 
 export const Quotes = () => {
   return (
-    <Grid container display='grid' justifyContent='center' sx={{backgroundColor:'#1b1b1b'}}>
+    <Grid container display='grid' justifyContent='center' sx={{backgroundColor:'#1b1b1b'}} id='Quotes'>
       <Grid item>
         <Typography variant="h3" align="center" color='whitesmoke'>Inspiración</Typography>
       </Grid>
