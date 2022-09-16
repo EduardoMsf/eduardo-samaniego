@@ -14,7 +14,9 @@ export const NavBar = (props) => {
     setMobileOpen(!mobileOpen);
   };
 
-  console.log(window)
+  const handleSection = (item) =>{
+    location.href = `#${item}`
+  }
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
@@ -25,7 +27,7 @@ export const NavBar = (props) => {
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }} >
+            <ListItemButton sx={{ textAlign: 'center' }} onClick={()=>handleSection(item)}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -35,6 +37,7 @@ export const NavBar = (props) => {
   );
 
   const container = window !== undefined ? () => window().document.body : undefined
+  console.log(location)
 
   return (
     <Box sx={{ display: 'flex' }}>
