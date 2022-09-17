@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material";
-import { red } from "@mui/material/colors";
+import { red, purple } from "@mui/material/colors";
 
 export const blueTheme = createTheme({
   palette: {
@@ -20,6 +20,9 @@ export const blueTheme = createTheme({
     },
     whiteSmoke: {
       main: '#f5f5f5'
+    },
+    deepPurple:{
+      main: purple[900]
     }
   }
 })

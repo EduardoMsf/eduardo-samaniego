@@ -3,7 +3,7 @@ import { Grid, Typography } from "@mui/material"
 
 export const About = () => {
   return (
-    <Grid container display='grid' justifyContent='center' id='About'>
+    <Grid container display='grid' justifyContent='center' id='About' sx={{padding: '75px 0'}}>
       <Grid item>
         <Typography variant="h3" align="center">Acerca de mí</Typography>
       </Grid>

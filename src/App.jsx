@@ -23,11 +23,11 @@ export const App = () => {
           <Grid item sx={{}}>
             <About />
           </Grid>
-          <Grid item sx={{border: '1px solid black'}}>
-            <Quotes />
-          </Grid>
-          <Grid item sx={{border: '1px solid black'}}>
+          <Grid item sx={{backgroundColor:'#1B1B1B'}}>
             <Projects />
+          </Grid>
+          <Grid item sx={{}}>
+            <Quotes />
           </Grid>
         </Grid>
       </Box>
