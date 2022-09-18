@@ -3,11 +3,11 @@ import { Grid, Typography } from "@mui/material"
 
 export const Quotes = () => {
   return (
-    <Grid container display='grid' justifyContent='center' sx={{}} color='whitesmoke' id='Quotes'>
-      <Grid item>
+    <Grid container display='grid' justifyContent='center' alignItems='center' sx={{paddingTop: '75px'}} color='whitesmoke' id='Quotes'>
+      <Grid item sx={{paddingBottom:'32px'}}>
         <Typography variant="h3" align="center" sx={{color:'#1b1b1b'}}>Inspiración</Typography>
       </Grid>
-      <Grid item>
+      <Grid item sx={{padding:'16px 0'}}>
         <Typography variant="body1" align="center" sx={{color:'#1b1b1b'}}>
           "Intenta hacer pequeños logros todos los días. Si lo haces así, Imagínate lo que lograrás en un mes... Un año... Una vida..."
         </Typography>
@@ -15,7 +15,7 @@ export const Quotes = () => {
           Fernando Herrera
         </Typography>
       </Grid>
-      <Grid item>
+      <Grid item sx={{padding:'16px 0'}}>
         <Typography variant="body1" align="center" sx={{color:'#1b1b1b'}}>
         "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito"
         </Typography>
@@ -23,7 +23,7 @@ export const Quotes = () => {
           Will Duran
         </Typography>
       </Grid>
-      <Grid item>
+      <Grid item sx={{padding:'16px 0'}}>
         <Typography variant="body1" align="center" sx={{color:'#1b1b1b'}}>
         "En este momento (inicio de la pandemia), los creadores del mundo tienen un lienzo en blanco... Te invito a crear"
         </Typography>
