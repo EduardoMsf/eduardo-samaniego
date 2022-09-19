@@ -1,5 +1,6 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Grid, Typography } from "@mui/material"
 import { Box } from "@mui/system"
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 
 export const Projects = () => {
@@ -7,7 +8,7 @@ export const Projects = () => {
   // https://i.pinimg.com/originals/72/fe/53/72fe53c49bfb4a849d13b3c494dd7ef0.jpg
   //https://i.pinimg.com/originals/85/0e/cf/850ecfc55a32e45c57d3f1400d96af3b.jpg
   return (
-    <Box id='Projects' sx={{padding: '75px 0'}}>
+    <Box id='Projects' sx={{padding: '75px 0'}} >
       <Grid container justifyContent='center' sx={{marginBottom:'32px'}}>
         <Grid item>
           <Typography variant="h3" color='whitesmoke'>Proyectos</Typography>
@@ -78,12 +79,14 @@ export const Projects = () => {
               Próximamente
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              He realizado diversos proyectos, me encuentro mejorando, desplegando y refactorizando mi código, dándole de esta forma una nueva identidad a mis proyectos. ¡Estaré encantado de recibir tus comentarios!
+              He realizado diversos proyectos, me encuentro mejorando, refactorizando y desplegando mi código, dándole de esta forma una nueva identidad a mis proyectos.
+              Tengo un perfil en Platzi que puedes ver acá abajo. 
+              ¡Estaré encantado de recibir tus comentarios!
             </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small">Demo</Button>
-              <Button size="small">Código</Button>
+              <Button size="small"><a style={{textDecoration:'none'}} href="https://platzi.com/p/Eduardomsf/" target='_blank'>Platzi</a></Button>
+              <FavoriteIcon sx={{ color: "#97C93E" }} />
             </CardActions>
           </Card>
         </Grid>

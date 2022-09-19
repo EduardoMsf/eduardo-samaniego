@@ -58,7 +58,7 @@ export const NavBar = (props) => {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             color="whitesmoke"
           >
-            ES
+            MSF
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, width:'798px' }}>
             {navItems.map((item) => (
