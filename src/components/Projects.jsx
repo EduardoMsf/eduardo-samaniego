@@ -72,21 +72,19 @@ export const Projects = () => {
             component="img"
             alt="Suzume no Tojimari"
             height="240"
-            image="https://res.cloudinary.com/dheyjds01/image/upload/v1663300466/coming-soon_l7n8bs.jpg"
+            image="https://res.cloudinary.com/dheyjds01/image/upload/v1682454257/notes-app-2_zas8gj.png"
             />
             <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Próximamente
+              Notes App
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              He realizado diversos proyectos, me encuentro mejorando, refactorizando y desplegando mi código, dándole de esta forma una nueva identidad a mis proyectos.
-              Tengo un perfil en Platzi que puedes ver acá abajo. 
-              ¡Estaré encantado de recibir tus comentarios!
+              Es una app de notas a forma de diario, puedes loggearte con google o crear una cuenta de cero, puedes crear, editar, borrar y subir imagenes a tus notas.
             </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small"><a style={{textDecoration:'none'}} href="https://platzi.com/p/Eduardomsf/" target='_blank'>Platzi</a></Button>
-              <FavoriteIcon sx={{ color: "#97C93E" }} />
+            <Button size="small"><a style={{textDecoration:'none'}} href="https://samaniego-notes.netlify.app" target='_blank'>Demo</a></Button>
+              <Button size="small"><a style={{textDecoration:'none'}} href='https://github.com/EduardoMsf/journal-app-mui' target='_blank'>Código</a></Button>
             </CardActions>
           </Card>
         </Grid>

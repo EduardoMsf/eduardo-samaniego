@@ -10,12 +10,12 @@ export const About = () => {
           <Typography variant="h3" align="center">Acerca de mí</Typography>
           <Grid sx={{padding:'16px 0'}}>
             <Typography variant="body1" align="center">
-              Mi nombre es Eduardo Samaniego, tengo 26 años, actualmente me encuentro aprendiendo sobre desarrollo   frontend. Me gusta la tecnología, los autos y los e-sports
+              Mi nombre es Eduardo Samaniego, tengo 26 años y soy Desarrollador Frontend Jr con 1 año de experiencia.
             </Typography>
             <Typography variant="body1" align="center">
-              Mi gusto por el desarrollo web surgió cuando participé en el desarrollo de un proyecto web para causas   benéficas de         mi localidad. Desde entonces es mi meta profesional convertirme en desarrollador   frontend!
+              Mi gusto por el desarrollo web surgió cuando participé en el desarrollo de un proyecto web para causas   benéficas de         mi localidad. 
             </Typography>
-            <Typography variant="body1" align="center">Platzi, Udemy, codigofacilito, YT, entre otras plataformas han sido un gran impulso para lograr mis objetivos. </Typography>
+            <Typography variant="body1" align="center">Profesionalmente me he desarrollo en ambientes Vanilla Js y React </Typography>
           </Grid>
         </Grid>
         <Grid item xs={12} sm={12} md={6} lg={4} justifyContent='center'>

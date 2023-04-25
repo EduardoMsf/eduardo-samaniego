@@ -10,7 +10,7 @@ export const Contact = () => {
     <Grid container id='Contact' sx={{backgroundColor:'#1b1b1b', height:'120px', margin:'-55px 0'}} justifyContent='center' alignItems='center'>
       <Grid item>
         <IconButton size="large">
-          <a href='https:github.com/EduardoMsf' target='_blank'>
+          <a href='https://github.com/EduardoMsf' target='_blank'>
             <GitHubIcon color='whiteSmoke' fontSize="large"/>
           </a>
         </IconButton>
